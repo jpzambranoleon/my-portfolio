@@ -114,7 +114,7 @@ export default function Home() {
             <img
               src="/static/logos/html.png"
               alt="html-logo"
-              style={{ width: 27, height: 30 }}
+              style={{ width: 29, height: 30 }}
             />
             <img
               src="/static/logos/css.png"
