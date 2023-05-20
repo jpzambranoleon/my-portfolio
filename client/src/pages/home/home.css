@@ -1,0 +1,199 @@
+.hero {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    height: 65rem;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-main {
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
+}
+
+.hero-text h1 {
+    color: #2d2e32;
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-text p {
+    color: #767676;
+    font-family: Mulish,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.hero-text span {
+    display: flex;
+    gap: 1.3rem;
+    margin: 2.5rem 0;
+}
+
+.hero-text span a {
+    color: #2d2e32;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.fa-brands, .fab {
+    font-weight: 400;
+}
+
+.hero-img {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/language-learning-app-e2225.appspot.com/o/profile-pic-leon.jpg?alt=media&token=d7a8c319-5498-40ab-93aa-a3084553f12a");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 35rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 35rem;
+}
+
+.skills {
+    align-items: center;
+    bottom: 0;
+    color: #767676;
+    display: flex;
+    font-size: 1.7rem;
+    left: 0;
+    position: absolute;
+}
+
+.skills p {
+    border-right: 2px solid rgba(45,46,50,.5);
+    color: #2d2e32;
+    font-family: Mulish,sans-serif;
+    font-weight: 600;
+    margin-right: 7rem;
+    padding-right: 2rem;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.skills ul li {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    cursor: pointer;
+    display: flex;
+    height: 6.5rem;
+    justify-content: center;
+    width: 6.5rem;
+}
+
+.skills ul li img {
+    height: auto;
+    width: 3.4rem;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        height: auto;
+        padding: 11rem 0;
+    } 
+    .content {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+        text-align: center;
+    }
+    .hero-main {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        height: auto;
+        text-align: center;
+    }
+    .hero-text p {
+        margin-bottom: 5rem;
+    }
+    .hero-text span {
+        gap: 1.6rem;
+        justify-content: center;
+        margin-bottom: 4rem;
+        margin-top: -2rem;
+    }
+    .skills {
+        flex-direction: column;
+        position: static;
+    }
+    .skills p {
+        border-bottom: 2px solid rgba(45,46,50,.5);
+        border-right: none;
+        margin-bottom: 3rem;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        padding-right: 0;
+    }
+    .skills ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-text h1 {
+        font-size: 4rem;
+    }
+    .hero-img {
+        height: 28rem;
+        width: 28rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .container {
+        padding: 0 1.7rem;
+    }
+}
