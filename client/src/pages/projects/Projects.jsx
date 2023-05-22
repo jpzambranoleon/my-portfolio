@@ -38,7 +38,7 @@ export default function Projects() {
                 </p>
                 <div className="stack">
                   <p>React</p>
-                  <p>SCSS</p>
+                  <p>CSS</p>
                 </div>
                 <div className="links">
                   <Box
