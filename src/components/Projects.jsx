@@ -1,5 +1,6 @@
 import Gymate from "../assets/images/gymate-home.webp";
 import Raouf from "../assets/images/ecom.webp";
+import Holux from "../assets/images/holux.webp";
 import ProBox from "./ProBox";
 
 export default function Projects() {
@@ -11,6 +12,17 @@ export default function Projects() {
             <p>portfolio</p>
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects-grid">
+              <ProBox
+                title="Holux"
+                img={Holux}
+                description="A modernized real estate agency that brings a wide selection of homes that fits any budget, making it easier for clients to find their dream home."
+                techno1="React"
+                techno2="SCSS"
+                code="https://github.com/stefvndev/Gymate"
+                demo="https://https://real-estate-website-blush.vercel.app/"
+                scrollY="-77%"
+                icon="🏠"
+              />
               <ProBox
                 title="gymate"
                 img={Gymate}
