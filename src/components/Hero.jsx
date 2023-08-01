@@ -5,6 +5,9 @@ import Js from "../assets/images/icons/javascript.svg";
 import React from "../assets/images/icons/react.svg";
 import Tailwind from "../assets/images/icons/tailwind.svg";
 import Sass from "../assets/images/icons/scss.svg";
+import NodeJs from "../assets/images/icons/nodejs.svg";
+import MongoDb from "../assets/images/icons/mongodb.svg";
+import MaterialUi from "../assets/images/icons/material-ui.svg";
 
 export default function Hero() {
   const skillsIcons = [
@@ -31,6 +34,14 @@ export default function Hero() {
     {
       img: Sass,
       title: "SCSS",
+    },
+    {
+      img: MaterialUi,
+      title: "Material-UI",
+    },
+    {
+      img: NodeJs,
+      title: "Node JS",
     },
   ];
 
