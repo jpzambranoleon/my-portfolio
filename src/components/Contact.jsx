@@ -15,7 +15,7 @@ export default function Contact() {
                 </span>
                 <div className="contact__info">
                   <h3>Location</h3>
-                  <p>Belgrade, Serbia</p>
+                  <p>Hot Springs, AR</p>
                 </div>
               </div>
 
@@ -26,7 +26,7 @@ export default function Contact() {
                 <div className="contact__info">
                   <h3>Mail</h3>
                   <a href="mailto:stefan.topallovic@gmail.com">
-                    stefan.topallovic@gmail.com
+                    jpzl_10@proton.me
                   </a>
                 </div>
               </div>

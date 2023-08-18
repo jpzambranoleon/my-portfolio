@@ -52,11 +52,11 @@ export default function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-                <h1>Front-End React Developer</h1>
+                <h1>Full-Stack React Developer</h1>
                 <img src={Waving} alt="waving_hand" />
                 <p>
                   Hi, Jean-Paul Zambrano-Leon. A passionate Full-stack React
-                  Developer based in Hot Springs, Arkansas. 📍
+                  Developer and data analyst based in Hot Springs, Arkansas. 📍
                 </p>
                 <span>
                   <a

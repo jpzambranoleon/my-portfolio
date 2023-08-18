@@ -12,7 +12,7 @@ function Footer() {
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                href="https://www.linkedin.com/in/jpzambranoleon/"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
@@ -20,7 +20,7 @@ function Footer() {
                 aria-label="github"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/stefvndev"
+                href="https://github.com/jpzambranoleon"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
